@@ -1,0 +1,15 @@
+{
+    "name": "receipts-accounting",
+    "version": "1.0.0",
+    "description": "receipts-accounting",
+    "main": "main.js",
+    "scripts": {
+        "start": "electron ."
+    },
+    "author": "Vladimir Maximov",
+    "license": "MIT",
+    "devDependencies": {
+        "electron": "^33.2.1",
+        "electron-builder": "^25.1.8"
+    }
+}

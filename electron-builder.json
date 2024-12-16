@@ -1,0 +1,7 @@
+{
+    "appId": "com.vladimir-maximov.receipts",
+    "linux": {
+        "target": "AppImage",
+        "category": "Utility"
+    }
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            http-equiv="Content-Security-Policy"
+            content="default-src 'self'; script-src 'self'"
+        />
+        <meta
+            http-equiv="X-Content-Security-Policy"
+            content="default-src 'self'; script-src 'self'"
+        />
+    </head>
+    <body>
+        <label for="year">год</label><br>
+        <input type="text" id="year" /><br><br>
+
+        <label for="year">месяц</label><br>
+        <input type="text" id="month" /><br><br>
+
+        <label for="year">квитанция</label><br>
+        <input type="text" id="receipt" /><br><br>
+
+        <input type="file" id="fileInput" />
+
+        <button id="uploadButton">Загрузить</button><br><br>
+        <button id="checkReceipts">Проверить квитанции</button>
+
+        <ul id="missingReceipts"></ul>
+
+        <script src="renderer.js"></script>
+    </body>
+</html>
